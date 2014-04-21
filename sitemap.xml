@@ -5,12 +5,18 @@
         <lastmod>2014-04-12T23:42:37+08:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://zerozhu.github.io/blog/2014/04/21/creating-a-github-blog-using-octopress/
+        </loc>
+        <lastmod>2014-04-22T00:03:24+08:00</lastmod>
+    </url>
+    <url>
         <loc>http://zerozhu.github.io/blog/archives/</loc>
-        <lastmod>2014-04-12T23:42:37+08:00</lastmod>
+        <lastmod>2014-04-22T00:03:24+08:00</lastmod>
     </url>
     <url>
         <loc>http://zerozhu.github.io/</loc>
-        <lastmod>2014-04-12T23:42:37+08:00</lastmod>
+        <lastmod>2014-04-22T00:03:24+08:00</lastmod>
     </url>
     <url>
         <loc>http://zerozhu.github.io/robots.txt</loc>
