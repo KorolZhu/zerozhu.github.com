@@ -4,7 +4,7 @@
   <title><![CDATA[我的学习笔记]]></title>
   <link href="http://zerozhu.github.io/atom.xml" rel="self"/>
   <link href="http://zerozhu.github.io/"/>
-  <updated>2014-04-21T23:02:24+08:00</updated>
+  <updated>2014-04-21T23:33:45+08:00</updated>
   <id>http://zerozhu.github.io/</id>
   <author>
     <name><![CDATA[zhu zhi]]></name>
@@ -12,24 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World3]]></title>
-    <link href="http://zerozhu.github.io/blog/2014/04/21/hello-world3/"/>
-    <updated>2014-04-21T23:01:36+08:00</updated>
-    <id>http://zerozhu.github.io/blog/2014/04/21/hello-world3</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World2]]></title>
-    <link href="http://zerozhu.github.io/blog/2014/04/13/hello-world2/"/>
-    <updated>2014-04-13T00:02:07+08:00</updated>
-    <id>http://zerozhu.github.io/blog/2014/04/13/hello-world2</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
