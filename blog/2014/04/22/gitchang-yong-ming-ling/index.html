@@ -5,12 +5,22 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hello World - 我的学习笔记</title>
+  <title>Git常用命令 - 我的学习笔记</title>
   <meta name="author" content="zhu zhi">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="1、添加本地项目到GitHub 1
+2
+3
+4
+5
+6
+7
+$ cd my_project
+$ git init
+$ git add *
+$ git commit -m "First commit"
+$ git remote add origin https://github.com/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +29,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://zerozhu.github.io/blog/2014/04/12/hello-world">
+  <link rel="canonical" href="http://zerozhu.github.io/blog/2014/04/22/gitchang-yong-ming-ling">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="我的学习笔记" type="application/atom+xml">
@@ -67,7 +77,7 @@
   
   <header>
     
-      <h1 class="entry-title">Hello World</h1>
+      <h1 class="entry-title">Git常用命令</h1>
     
     
       <p class="meta">
@@ -83,14 +93,33 @@
   
 
 
-<time datetime="2014-04-12T23:42:37+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+<time datetime="2014-04-22T22:53:42+08:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><h3>1、添加本地项目到GitHub</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd my_project
+</span><span class='line'>$ git init
+</span><span class='line'>$ git add *
+</span><span class='line'>$ git commit -m "First commit"
+</span><span class='line'>$ git remote add origin https://github.com/yourname/my_project.git
+</span><span class='line'>$ git pull origin master
+</span><span class='line'>$ git push -u origin master
+</span></code></pre></td></tr></table></div></figure>
+
+
+
 </div>
 
 
@@ -113,7 +142,7 @@
   
 
 
-<time datetime="2014-04-12T23:42:37+08:00" pubdate data-updated="true">Apr 12<span>th</span>, 2014</time>
+<time datetime="2014-04-22T22:53:42+08:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
       
 
 
@@ -128,8 +157,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/04/21/creating-a-github-blog-using-octopress/" title="Previous Post: 利用Octopress搭建一个Github博客">&laquo; 利用Octopress搭建一个Github博客</a>
       
-        <a class="basic-alignment right" href="/blog/2014/04/21/creating-a-github-blog-using-octopress/" title="Next Post: 利用Octopress搭建一个Github博客">利用Octopress搭建一个Github博客 &raquo;</a>
       
     </p>
   </footer>

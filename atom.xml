@@ -4,7 +4,7 @@
   <title><![CDATA[我的学习笔记]]></title>
   <link href="http://zerozhu.github.io/atom.xml" rel="self"/>
   <link href="http://zerozhu.github.io/"/>
-  <updated>2014-04-22T00:12:13+08:00</updated>
+  <updated>2014-04-22T23:22:30+08:00</updated>
   <id>http://zerozhu.github.io/</id>
   <author>
     <name><![CDATA[zhu zhi]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Git常用命令]]></title>
+    <link href="http://zerozhu.github.io/blog/2014/04/22/gitchang-yong-ming-ling/"/>
+    <updated>2014-04-22T22:53:42+08:00</updated>
+    <id>http://zerozhu.github.io/blog/2014/04/22/gitchang-yong-ming-ling</id>
+    <content type="html"><![CDATA[<h3>1、添加本地项目到GitHub</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd my_project
+</span><span class='line'>$ git init
+</span><span class='line'>$ git add *
+</span><span class='line'>$ git commit -m "First commit"
+</span><span class='line'>$ git remote add origin https://github.com/yourname/my_project.git
+</span><span class='line'>$ git pull origin master
+</span><span class='line'>$ git push -u origin master
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[利用Octopress搭建一个Github博客]]></title>

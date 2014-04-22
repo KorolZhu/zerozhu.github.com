@@ -9,7 +9,18 @@
   <meta name="author" content="zhu zhi">
 
   
-  <meta name="description" content="原文来自破船兄：利用Octopress搭建一个Github博客 小引 Octopress是利用Jekyll博客引擎开发的一个博客系统，生成的静态页面能够很好的在github page上展现。号称是hacker专属的一个博客系统(A blogging framework for hackers.) &hellip;">
+  <meta name="description" content="1、添加本地项目到GitHub 1
+2
+3
+4
+5
+6
+7
+$ cd my_project
+$ git init
+$ git add *
+$ git commit -m "First commit"
+$ git remote add origin https://github.com/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -63,6 +74,61 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/04/22/gitchang-yong-ming-ling/">Git常用命令</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-04-22T22:53:42+08:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>1、添加本地项目到GitHub</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd my_project
+</span><span class='line'>$ git init
+</span><span class='line'>$ git add *
+</span><span class='line'>$ git commit -m "First commit"
+</span><span class='line'>$ git remote add origin https://github.com/yourname/my_project.git
+</span><span class='line'>$ git pull origin master
+</span><span class='line'>$ git push -u origin master
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -158,6 +224,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/04/22/gitchang-yong-ming-ling/">Git常用命令</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/04/21/creating-a-github-blog-using-octopress/">利用Octopress搭建一个Github博客</a>
