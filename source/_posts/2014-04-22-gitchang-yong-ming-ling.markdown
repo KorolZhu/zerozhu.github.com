@@ -17,4 +17,11 @@ $ git pull origin master
 $ git push -u origin master
 
 ```
+###1、分支的删除
+```
+
+$ git branch -d <branchname> （删除已经合并的分支） 
+$ git branch -D <branchname> （删除即使没有合并的分支）
+
+```
 
