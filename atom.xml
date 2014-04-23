@@ -4,7 +4,7 @@
   <title><![CDATA[我的学习笔记]]></title>
   <link href="http://zerozhu.github.io/atom.xml" rel="self"/>
   <link href="http://zerozhu.github.io/"/>
-  <updated>2014-04-23T23:03:05+08:00</updated>
+  <updated>2014-04-23T23:17:12+08:00</updated>
   <id>http://zerozhu.github.io/</id>
   <author>
     <name><![CDATA[zhu zhi]]></name>
@@ -37,14 +37,29 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<h3>1、分支的删除</h3>
+<h3>2、分支的删除</h3>
+
+<ul>
+<li>删除本地分支</li>
+</ul>
+
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>
-</span><span class='line'>$ git branch -d &lt;branchname&gt; （删除已经合并的分支） 
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git branch -d &lt;branchname&gt; （删除已经合并的分支） 
 </span><span class='line'>$ git branch -D &lt;branchname&gt; （删除即使没有合并的分支）
+</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>删除远程分支</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git push origin --delete &lt;branchname&gt;
+</span><span class='line'>$ git push origin :&lt;branchname&gt;  (git push [远程名] [本地分支]:[远程分支])
 </span></code></pre></td></tr></table></div></figure>
 
 
