@@ -18,14 +18,14 @@ $ git push -u origin master
 
 ```
 ###2、分支的删除
-* 删除本地分支
+   * 删除本地分支
 
 ```
 $ git branch -d <branchname> （删除已经合并的分支） 
 $ git branch -D <branchname> （删除即使没有合并的分支）
 
 ```
-* 删除远程分支
+   * 删除远程分支
 
 ```
 $ git push origin --delete <branchname>
